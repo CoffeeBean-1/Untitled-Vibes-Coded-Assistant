@@ -1,0 +1,62 @@
+import { test,expect } from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
+import { emptyCalendar, type CalendarEvent } from '../../src/domain/calendar';
+
+test.use({timezoneId:'America/Chicago'});
+test('dashboard list uses hour/day relative time, quiet join icons and clicked meeting selection',async({page,context})=>{
+  const now=new Date('2026-10-27T14:00:00Z'); await page.clock.install({time:now}); await page.clock.pauseAt(new Date('2026-10-27T14:00:10Z'));
+  const join='https://example.zoom.us/j/123?pwd=fixture';
+  const base: CalendarEvent={id:'first',title:'Design review',start:'2026-10-27T14:59:10.000Z',end:'2026-10-27T15:29:00.000Z',allDay:false,startDate:null,endDate:null,location:'Room 4',attendeeCount:3,tentative:false,joinUrls:[join]};
+  const events=[base,{...base,id:'second',title:'Planning',start:'2026-10-27T15:00:10.000Z',end:'2026-10-27T15:30:00.000Z',joinUrls:[]},{...base,id:'third',title:'Project check-in',start:'2026-10-28T14:00:10.000Z',end:'2026-10-28T14:30:00.000Z'},{...base,id:'fourth',title:'Weekly review',start:'2026-10-29T14:00:10.000Z',end:'2026-10-29T14:30:00.000Z'},{...base,id:'fifth',title:'Later workshop',start:'2026-10-30T14:00:00.000Z',end:'2026-10-30T14:30:00.000Z'}];
+  await page.route('**/api/calendar/**',route=>route.fulfill({json:{...emptyCalendar('ics','ready'),host:'outlook.office365.com',events}}));
+  await context.route('https://example.zoom.us/**',route=>route.fulfill({contentType:'text/html',body:'Fixture destination'}));
+  await page.goto('/'); const card=page.getByRole('region',{name:'Meetings'});
+  await expect(card.locator('.meeting-list > li')).toHaveCount(3);
+  await expect(card.getByText('· in 59 minutes',{exact:true})).toBeVisible(); await expect(card.getByText('· in 1 hour',{exact:true})).toBeVisible();
+  await expect(card.getByText('Weekly review',{exact:true})).toHaveCount(0); await expect(card.getByText('Later workshop',{exact:true})).toHaveCount(0);
+  await expect(card.getByText('Room 4',{exact:true})).toHaveCount(0); await expect(card.locator('.button.primary')).toHaveCount(0);
+  const group=card.getByRole('group',{name:'Meeting options for Design review',exact:true});
+  const audio=group.getByRole('button',{name:'Open audio options for Design review',exact:true});
+  const video=group.getByRole('button',{name:'Open video options for Design review',exact:true});
+  await expect(group.getByRole('button')).toHaveCount(2); await expect(audio.locator('svg')).toHaveCount(1); await expect(video.locator('svg')).toHaveCount(1);
+  await expect(card.getByRole('group',{name:'Meeting options for Planning',exact:true})).toHaveCount(0);
+  await audio.focus(); const popup=page.waitForEvent('popup'); await page.keyboard.press('Enter'); const opened=await popup; await opened.waitForLoadState(); expect(opened.url()).toBe(join); await opened.close();
+  await audio.focus(); await page.keyboard.press('Tab'); await expect(video).toBeFocused();
+  const videoPopup=page.waitForEvent('popup'); await page.keyboard.press('Space'); const videoOpened=await videoPopup; await videoOpened.waitForLoadState(); expect(videoOpened.url()).toBe(join); await videoOpened.close();
+  await page.clock.runFor(60000); await expect(card.getByText('· in 59 minutes',{exact:true})).toBeVisible();
+  await page.clock.resume();
+  expect((await new AxeBuilder({page}).analyze()).violations).toEqual([]);
+  await page.screenshot({path:'artifacts/meetings-list-default.png',fullPage:true});
+  await page.getByRole('button',{name:'Switch to dark theme'}).click(); await page.setViewportSize({width:320,height:844});
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+  for (const button of [audio,video]) { const bounds=(await button.boundingBox())!; expect(bounds.width).toBeGreaterThanOrEqual(44); expect(bounds.height).toBeGreaterThanOrEqual(44); }
+  expect((await new AxeBuilder({page}).analyze()).violations).toEqual([]);
+  await page.screenshot({path:'artifacts/meeting-buttons-mobile-dark.png',fullPage:true});
+  await card.getByRole('button',{name:/^Project check-in/}).click();
+  await expect(page.getByRole('heading',{name:'Project check-in',exact:true})).toBeVisible();
+  await expect(page.getByRole('region',{name:'Project check-in',exact:true}).getByText('Room 4',{exact:true})).toBeVisible();
+});
+
+test('density settings persist and resize calendar/task rows without shrinking text',async({page})=>{
+  await page.clock.install({time:new Date('2026-10-27T14:00:00Z')});
+  await page.goto('/'); await page.getByRole('button',{name:'Calendar',exact:true}).click();
+  const row=page.locator('.agenda-event').first(); const defaultHeight=(await row.boundingBox())!.height;
+  const fontSize=await row.locator('strong').evaluate(el=>getComputedStyle(el).fontSize);
+  await page.getByRole('button',{name:'Settings',exact:true}).click(); await page.getByRole('radio',{name:'Compact',exact:false}).click();
+  await expect(page.locator('.app-shell')).toHaveAttribute('data-density','compact');
+  await page.reload(); await expect(page.locator('.app-shell')).toHaveAttribute('data-density','compact');
+  await page.getByRole('button',{name:'Calendar',exact:true}).click();
+  const compactHeight=(await row.boundingBox())!.height; expect(compactHeight).toBeLessThan(defaultHeight); expect(await row.locator('strong').evaluate(el=>getComputedStyle(el).fontSize)).toBe(fontSize);
+  expect((await new AxeBuilder({page}).analyze()).violations).toEqual([]);
+  await page.screenshot({path:'artifacts/calendar-density-compact.png',fullPage:true});
+  await page.getByRole('button',{name:'Settings',exact:true}).click(); await page.getByRole('radio',{name:'Comfortable',exact:false}).click(); await expect(page.locator('.app-shell')).toHaveAttribute('data-density','comfortable');
+  await page.getByRole('button',{name:'Calendar',exact:true}).click(); expect((await row.boundingBox())!.height).toBeGreaterThan(defaultHeight);
+  await page.getByRole('button',{name:'Settings',exact:true}).click(); await page.getByRole('radio',{name:'Default',exact:false}).click();
+  await expect(page.locator('.app-shell')).toHaveAttribute('data-density','default');
+  await page.getByRole('radio',{name:'Compact',exact:false}).click(); await expect(page.locator('.app-shell')).toHaveAttribute('data-density','compact'); await page.getByRole('radio',{name:'Dark',exact:true}).click(); await expect(page.locator('html')).toHaveAttribute('data-theme','dark');
+  expect((await new AxeBuilder({page}).analyze()).violations).toEqual([]);
+  await page.screenshot({path:'artifacts/density-settings-dark.png',fullPage:true});
+  await page.getByRole('button',{name:'Dashboard',exact:true}).click(); await page.setViewportSize({width:390,height:844});
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+  await page.screenshot({path:'artifacts/meetings-list-mobile.png',fullPage:true});
+});

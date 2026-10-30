@@ -1,0 +1,10 @@
+/* Keep the next meeting and task actions ahead of reminder history on phones. */
+@media (max-width: 680px) {
+  .sidebar nav { overflow-x: auto; scrollbar-width: thin; padding-bottom: 3px; }
+  .sidebar nav .nav-item { flex-shrink: 0; white-space: nowrap; }
+  .dashboard-grid .right-column { display: contents; }
+  .dashboard-grid .meeting-card { order: 0; }
+  .dashboard-grid .tasks-card { order: 1; }
+  .dashboard-grid .reminders-card { order: 2; }
+  .dashboard-grid .quiet-note { order: 3; }
+}

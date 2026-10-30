@@ -1,0 +1,50 @@
+.reminder-view-toolbar { display:flex; justify-content:space-between; align-items:center; gap:16px; }
+.reminder-view-toolbar > .button { flex-shrink:0; }
+.reminder-composer { display:grid; justify-items:start; gap:12px; margin-top:18px; }
+.reminder-form-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; width:100%; }
+.reminder-form-grid .field { min-width:0; }
+.reminder-form-grid input, .reminder-form-grid select { width:100%; min-width:0; }
+.reminder-row-main { flex:1 1 240px; }
+.reminder-row-actions { display:flex; align-items:center; gap:12px; flex-wrap:wrap; }
+.reminder-row-actions .button { font-size:12px; min-height:36px; padding:8px 10px; }
+.reminder-zone { display:inline-block; font-size:12px; }
+.reminder-change { margin-top:10px; font-size:12px; }
+.reminder-change summary, .food-tracking summary { cursor:pointer; color:var(--link); width:fit-content; padding:4px 0; }
+.reminder-change .field { margin-top:12px; max-width:260px; }
+.reminder-change .button { margin-top:10px; }
+.task-reminders { padding-top:24px; margin-top:24px; border-top:1px solid var(--border); }
+.task-reminders > .help-text { margin-top:12px; }
+.task-reminders .reminder-entry { flex-wrap:wrap; padding-top:14px; }
+.reminder-section-note { padding:0 23px 16px; color:var(--secondary); font-size:13px; }
+.history-entry { align-items:start; }
+.history-delivery { margin-top:14px; border-left:2px solid var(--border); padding-left:12px; }
+.history-delivery .reminder-row-actions { margin-top:8px; }
+.reminder-widget-upcoming { padding:0 22px; }
+.reminder-widget-upcoming button { background:none; width:100%; padding:10px 0; display:flex; justify-content:space-between; gap:12px; border-top:1px solid var(--border); text-align:left; font-size:13px; }
+.reminder-widget-upcoming span { overflow-wrap:anywhere; }
+.reminder-widget-upcoming time { font-size:12px; color:var(--secondary); flex-shrink:0; }
+button.notification { background:none; width:100%; text-align:left; }
+.notification-message { display:block; color:var(--secondary); font-size:12px; margin-top:5px; }
+.food-widget-body { padding:0 23px 20px; display:grid; justify-items:start; gap:14px; }
+.food-widget-body > p { color:var(--secondary); font-size:13px; }
+.food-pickup-preview { display:flex; gap:10px; align-items:center; width:100%; padding:10px 0 0; background:none; border-top:1px solid var(--border); font-size:12px; color:var(--secondary); }
+.food-pickup-preview strong { margin-left:auto; font-weight:550; color:var(--text); }
+.food-full { display:grid; gap:var(--view-gap); }
+.food-ordering { display:flex; align-items:start; gap:22px; padding:28px; }
+.food-heading-icon { display:grid; place-items:center; padding:15px; color:var(--link); background:var(--tint); border-radius:12px; }
+.food-ordering h2 { font-size:22px; }
+.food-ordering p:not(.eyebrow) { color:var(--secondary); margin-top:10px; font-size:13px; }
+.food-links { display:flex; align-items:center; flex-wrap:wrap; gap:20px; margin:20px 0; }
+.food-links > a:not(.button) { font-size:13px; display:inline-flex; align-items:center; gap:6px; }
+a.button { text-decoration:none; }
+.food-columns { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:var(--view-gap); align-items:start; }
+.food-columns .settings-card { max-width:none; }
+.food-columns .settings-card > .field { margin-top:20px; }
+.food-tracking { margin-top:14px; font-size:13px; }
+.food-tracking summary span { color:var(--secondary); font-size:12px; }
+.food-tracking .field { margin-top:12px; }
+.pickup-item { border-top:1px solid var(--border); padding:18px 0; }
+.pickup-heading { display:flex; align-items:start; justify-content:space-between; gap:12px; }
+.pickup-item .reminder-entry { flex-wrap:wrap; border-top:0; padding-bottom:0; }
+@media(max-width:1100px) { .food-columns { grid-template-columns:1fr; } }
+@media(max-width:680px) { .food-ordering { padding:20px; gap:14px; } .food-heading-icon { padding:10px; } .food-ordering h2 { font-size:19px; } .reminder-view-toolbar { align-items:start; flex-direction:column; } .reminder-form-grid { grid-template-columns:1fr; } .reminder-widget-upcoming button { flex-wrap:wrap; gap:4px; } .reminder-entry { flex-direction:column; align-items:stretch; } .reminder-row-main { flex:auto; } .reminder-row-actions { width:100%; } }

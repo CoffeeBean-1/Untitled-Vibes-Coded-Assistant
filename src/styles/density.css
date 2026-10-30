@@ -1,0 +1,26 @@
+.app-shell { --agenda-row-padding: 12px; --meeting-row-padding: 12px; --detail-padding: 20px; --detail-gap: 14px; --view-gap: 16px; }
+.app-shell[data-density='compact'] { --agenda-row-padding: 7px; --meeting-row-padding: 8px; --detail-padding: 16px; --detail-gap: 10px; --view-gap: 12px; }
+.app-shell[data-density='comfortable'] { --agenda-row-padding: 20px; --meeting-row-padding: 20px; --detail-padding: 28px; --detail-gap: 22px; --view-gap: 24px; }
+.app-shell .calendar-full { gap: var(--view-gap); }
+.app-shell .meeting-details { padding: var(--detail-padding); }
+.app-shell .meeting-details dl { gap: var(--detail-gap); }
+.app-shell .agenda-event { padding-block: var(--agenda-row-padding); min-height: 48px; }
+.app-shell .reminder-entry { padding-block: var(--agenda-row-padding); }
+.app-shell[data-density='compact'] .card-heading { padding: 14px 18px; }
+.app-shell[data-density='compact'] .task-row { padding-block: 10px; }
+.app-shell[data-density='compact'] .new-task { padding-block: 16px; }
+.app-shell[data-density='compact'] .settings-card { padding: 20px; }
+.app-shell[data-density='compact'] .calendar-toolbar { padding-block: 12px; }
+.app-shell[data-density='compact'] .agenda-day h2 { padding-block: 10px; }
+.app-shell[data-density='comfortable'] .card-heading { padding-block: 26px; }
+.app-shell[data-density='comfortable'] .task-row { padding-block: 22px; }
+.app-shell[data-density='comfortable'] .new-task { padding-block: 28px; }
+.app-shell[data-density='comfortable'] .agenda-day h2 { padding-block: 20px; }
+.density-setting { margin-top: 22px; }
+.density-options { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; }
+.density-options label { display: flex; align-items: start; gap: 9px; padding: 12px; border: 1px solid var(--control-border); border-radius: 8px; cursor: pointer; }
+.density-options label:has(input:checked) { border-color: var(--link); background: var(--tint); }
+.density-options input { margin: 3px 0 0; accent-color: var(--link); flex-shrink: 0; }
+.density-options strong { display: block; font-size: 13px; }
+.density-options small { display: block; font-size: 12px; margin-top: 4px; color: var(--secondary); }
+@media(max-width:680px) { .density-options { grid-template-columns: 1fr; } }

@@ -1,0 +1,86 @@
+.calendar-state, .calendar-refresh, .calendar-meeting-actions { display: flex; align-items: center; gap: .6rem; }
+.meeting-card .calendar-state { margin: 0 23px 20px; }
+.meeting-card .calendar-warning { padding: .65rem .8rem; border-radius: 8px; background: var(--demo-bg); color: var(--demo-fg); font-size: .8rem; line-height: 1.5; margin: 0 23px 14px; overflow-wrap: anywhere; }
+.calendar-warning strong { display: block; }
+.meeting-card .calendar-location { margin: 8px 23px 14px; font-size: .85rem; overflow-wrap: anywhere; }
+.calendar-meeting-actions { margin: 0 23px 16px; }
+.calendar-meeting-actions > .button { width: 100%; justify-content: space-between; }
+.calendar-refresh { justify-content: space-between; margin: 20px 23px 0; color: var(--secondary); }
+.calendar-refresh small { font-size: .7rem; }
+.calendar-agenda { margin: 14px 23px 20px; border-top: 1px solid var(--border); padding-top: .8rem; font-size: .8rem; }
+.calendar-agenda summary { cursor: pointer; font-weight: 600; }
+.calendar-agenda > div { display: grid; gap: .3rem; padding: .8rem 0; border-bottom: 1px solid var(--border, #dce1da); overflow-wrap: anywhere; }
+.calendar-agenda small { color: var(--text-muted, #69716b); }
+.calendar-settings-form { display: grid; gap: 1rem; margin-top: 1rem; }
+.calendar-settings-form input { width: 100%; min-width: 0; }
+.calendar-settings-actions { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1rem; }
+.calendar-connection-info { overflow-wrap: anywhere; }
+.meeting-choice { display: flex; width: 100%; justify-content: space-between; margin-top: .75rem; overflow-wrap: anywhere; }
+.meeting-countdown { flex-wrap: wrap; }
+.calendar-connection { display: flex; align-items: center; gap: .8rem; padding: 1rem 0; }
+.calendar-connection > div { display: grid; gap: .3rem; }
+.calendar-connection small { color: var(--secondary); }
+
+/* Quiet dashboard list; details and launch links live in the Calendar view. */
+.meeting-list-card .card-heading { padding-bottom: 12px; }
+.meeting-list { padding: 0; margin: 0; list-style: none; }
+.meeting-list > li { display: grid; grid-template-columns: minmax(0,1fr) auto; align-items: center; gap: 8px; border-top: 1px solid var(--border); padding: var(--meeting-row-padding,12px) 18px; }
+.meeting-list > li:first-child { border-top: 0; }
+.meeting-list-details { display: grid; justify-items: start; gap: 4px; background: none; text-align: left; padding: 3px 5px; min-width: 0; border-radius: 5px; width: 100%; }
+.meeting-list-details:hover { background: var(--hover); }
+.meeting-list-title { font-size: 14px; font-weight: 550; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; width: 100%; }
+.meeting-list-meta { font-size: 12px; color: var(--secondary); line-height: 1.6; overflow-wrap: anywhere; }
+.meeting-list-meta small { font-size: inherit; }
+.meeting-call-actions { display: flex; align-items: center; gap: 4px; }
+.meeting-call-button { display: grid; place-items: center; background: none; color: var(--secondary); border-radius: 6px; min-width: 36px; min-height: 36px; padding: 0; }
+.meeting-call-button:hover { color: var(--link); background: var(--tint); }
+.meeting-list-footer { display: flex; align-items: center; gap: 12px; border-top: 1px solid var(--border); padding: 8px 23px; min-height: 44px; }
+.meeting-list-footer > .text-button { margin-left: auto; font-size: 11px; }
+.meeting-list-footer .small-label { font-size: 9px; letter-spacing: .4px; }
+@media(max-width:680px) { .meeting-list > li { padding-inline: 13px; } .meeting-call-button { min-width: 44px; min-height: 44px; } .meeting-list-meta { font-size: 12px; } }
+
+.calendar-full { display: grid; gap: 18px; }
+.calendar-toolbar { padding: 18px 22px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; }
+.calendar-source { display: grid; gap: 5px; }
+.calendar-source span { font-size: 12px; color: var(--secondary); overflow-wrap: anywhere; }
+.calendar-toolbar-actions { display: flex; align-items: center; gap: 10px; }
+.calendar-filterbar { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 15px; }
+.calendar-scopes { display: flex; flex-wrap: wrap; gap: 4px; }
+.calendar-scopes button { padding: 9px 12px; border-radius: 7px; background: none; color: var(--secondary); font-size: 13px; min-height: 40px; }
+.calendar-scopes button:hover { background: var(--hover); }
+.calendar-scopes button.selected { background: var(--tint); color: var(--link); font-weight: 600; }
+.calendar-search { min-width: 210px; flex: 0 1 280px; }
+.calendar-full .calendar-window { color: var(--secondary); font-size: 12px; line-height: 1.6; }
+.calendar-layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(280px, 340px); gap: 22px; align-items: start; }
+.agenda-day h2 { display: flex; justify-content: space-between; gap: 12px; background: var(--tint-soft); border-bottom: 1px solid var(--border); padding: 16px 20px; font-size: 14px; }
+.agenda-day h2 time { font-size: 12px; font-weight: 400; color: var(--secondary); }
+.agenda-event { display: flex; width: 100%; align-items: start; gap: 16px; padding: 18px 20px; border-bottom: 1px solid var(--border); text-align: left; background: var(--surface); border-left: 3px solid transparent; }
+.agenda-event:hover { background: var(--hover); }
+.agenda-event.selected { border-left-color: var(--link); background: var(--tint); }
+.agenda-event-time { flex: 0 0 80px; font-size: 13px; font-weight: 550; }
+.agenda-event-time small { display: block; color: var(--secondary); font-size: 12px; margin-top: 4px; font-weight: 400; }
+.agenda-event-summary { display: grid; justify-items: start; gap: 6px; min-width: 0; }
+.agenda-event-summary strong { font-size: 14px; font-weight: 550; overflow-wrap: anywhere; }
+.agenda-event-summary > span:not(.count-badge) { font-size: 12px; color: var(--secondary); overflow-wrap: anywhere; }
+.meeting-details { padding: 24px; position: sticky; top: 20px; scroll-margin-top: 16px; }
+.meeting-details h2 { font-size: 19px; line-height: 1.5; overflow-wrap: anywhere; }
+.meeting-details .detail-eyebrow { color: var(--secondary); font-size: 10px; letter-spacing: 1.3px; margin-bottom: 12px; }
+.meeting-details .detail-status { color: var(--secondary); font-size: 13px; margin-top: 8px; }
+.meeting-details dl { margin: 22px 0; display: grid; gap: 18px; }
+.meeting-details dt { display: flex; align-items: center; gap: 8px; color: var(--secondary); font-size: 12px; }
+.meeting-details dd { margin: 6px 0 0 24px; font-size: 13px; overflow-wrap: anywhere; }
+.meeting-details dd small { display: block; color: var(--secondary); margin-top: 4px; font-size: 12px; }
+.meeting-details .detail-note { margin: 10px 0; color: var(--secondary); font-size: 12px; }
+.detail-actions { margin-top: 20px; }
+.detail-actions > .button { width: 100%; justify-content: space-between; }
+.calendar-full .calendar-warning { margin: 0; padding: 12px 16px; border-radius: 8px; font-size: 13px; background: var(--demo-bg); color: var(--demo-fg); }
+.calendar-full .calendar-state { display: flex; gap: 10px; color: var(--secondary); align-items: center; }
+.reminders-full { display: grid; gap: 20px; }
+.reminders-capability { display: flex; align-items: start; gap: 10px; color: var(--secondary); font-size: 13px; }
+.reminder-list { padding: 0 23px 12px; }
+.reminder-entry { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 18px 0; border-top: 1px solid var(--border); overflow-wrap: anywhere; }
+.reminder-entry > div { min-width: 0; }
+.reminder-entry p, .reminder-entry small { margin-top: 6px; color: var(--secondary); font-size: 13px; }
+@media (max-width: 1100px) { .calendar-layout { grid-template-columns: minmax(0, 1fr) minmax(250px, .8fr); gap: 16px; } }
+@media (max-width: 900px) { .calendar-layout { grid-template-columns: 1fr; } .meeting-details { position: static; order: -1; } }
+@media (max-width: 680px) { .calendar-search { flex-basis: 100%; } .calendar-toolbar, .meeting-details { padding: 18px; } .agenda-event { gap: 12px; padding: 16px; } .agenda-event-time { flex-basis: 76px; } .meeting-overview-body { padding-inline: 18px; } .meeting-overview-footer { padding-inline: 18px; } .reminder-entry { flex-wrap: wrap; } }
