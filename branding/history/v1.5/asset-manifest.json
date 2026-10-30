@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 1,
+  "identity": "CAi",
+  "version": "1.5",
+  "assets": [
+    {
+      "path": "public/branding/cai/apple-touch-icon.png",
+      "bytes": 22071,
+      "sha256": "392af78b80594f820c5b85cc8e00994ca0deb89a81e8c0d2d3964a83ae96f12d",
+      "dimensions": [
+        180,
+        180
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-1024.png",
+      "bytes": 313550,
+      "sha256": "26bfbc1172b8a1a7a47d93e8c37b0236b63c8836850c70586bc6184c10ecd630",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-128.png",
+      "bytes": 12847,
+      "sha256": "9a660ac85d21b93589f00e3cc3b4db648cf9e04e1cd1c45019b5ae121a3ceceb",
+      "dimensions": [
+        128,
+        128
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-16.png",
+      "bytes": 529,
+      "sha256": "1e714c80182dd1ae4bc2bdaa7a1eaa3dff93ccde4f1f8c46293c4d4e3f8797db",
+      "dimensions": [
+        16,
+        16
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-192.png",
+      "bytes": 24562,
+      "sha256": "3ea42dc20d106047b96dbb2fcbb33f77f92d74890eb0e6df24f6edee557ddd60",
+      "dimensions": [
+        192,
+        192
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-256.png",
+      "bytes": 38512,
+      "sha256": "44a44451184286d69de80f3191fabdfbdea101599ff51200338a19c2cd41fec2",
+      "dimensions": [
+        256,
+        256
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-32.png",
+      "bytes": 1420,
+      "sha256": "9c798ea4816f0df29b757b8894758f589f945a4f37cabc669d1343b0cfafd165",
+      "dimensions": [
+        32,
+        32
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-48.png",
+      "bytes": 2552,
+      "sha256": "69ec1daf681bf2eb4cdaab90110524da4d750761015df4a66374c187347d2ba7",
+      "dimensions": [
+        48,
+        48
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-512.png",
+      "bytes": 111830,
+      "sha256": "684d33f2ce7fe8c2e11bf963c91128825cdcf9167d69537ef00ab63b1af53c2d",
+      "dimensions": [
+        512,
+        512
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-64.png",
+      "bytes": 4086,
+      "sha256": "7f8b417a20e297266576f27cc9d3acb2cc3be124661087def6834cdc4488723e",
+      "dimensions": [
+        64,
+        64
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-logo-dark.png",
+      "bytes": 15475,
+      "sha256": "b1f004bf1db2cda85880a52b79f00a3a7faddfd5007a54dcba370a5b74c9dcd4",
+      "dimensions": [
+        222,
+        96
+      ],
+      "representation": "raster_render_of_derived_asset",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-logo-dark.svg",
+      "bytes": 38172,
+      "sha256": "9721fb9897563687911590d62687eb635fa3854a732abc21e1d8f1d0b251cabe",
+      "viewBox": "0 0 222 96",
+      "representation": "hybrid_svg_raster_symbol_vector_text",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-logo-dark@2x.png",
+      "bytes": 45121,
+      "sha256": "eb904d114ea697985f2dffe38112299759b96296d27961929659bb8164a38b33",
+      "dimensions": [
+        444,
+        192
+      ],
+      "representation": "raster_render_of_derived_asset",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-logo-light.png",
+      "bytes": 14612,
+      "sha256": "03626f99eaf4302b7daa4de843bcea1e3c90d0b0b292184f6784818d7f2ea167",
+      "dimensions": [
+        222,
+        96
+      ],
+      "representation": "raster_render_of_derived_asset",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-logo-light.svg",
+      "bytes": 38237,
+      "sha256": "c506b80184e55f006e46003a7f27288c2b4de8c84f8a2baa1b4c939221af1b71",
+      "viewBox": "0 0 222 96",
+      "representation": "hybrid_svg_raster_symbol_vector_text",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-logo-light@2x.png",
+      "bytes": 41260,
+      "sha256": "95833be57159929108d9cbb535c8ac5dd25cd413c42aa2bac5aac169f2a49819",
+      "dimensions": [
+        444,
+        192
+      ],
+      "representation": "raster_render_of_derived_asset",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-mark-128.png",
+      "bytes": 23644,
+      "sha256": "4461bcca824ec3cec537d450e30c71b7e99cd94e79c285baa57781fcf2996a44",
+      "dimensions": [
+        128,
+        128
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-mark-128.webp",
+      "bytes": 18196,
+      "sha256": "a4d955912ab826ef36e0e593e17d6ee9069145035a92da6c3f1c9ed2303876f3",
+      "dimensions": [
+        128,
+        128
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-mark-256.png",
+      "bytes": 73790,
+      "sha256": "699e53faabc17a8d65279a0652b717d226e537c4c2675dbfc9a2ad29c5c5f33c",
+      "dimensions": [
+        256,
+        256
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-mark-256.webp",
+      "bytes": 54108,
+      "sha256": "cf12abe8f7a8c80c81cf6a0e83b370f12cff5442c2e401072fa07801cfb94fc2",
+      "dimensions": [
+        256,
+        256
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-mark-512.png",
+      "bytes": 215778,
+      "sha256": "64eed7f15696a9b25f662e37fb097cb37868912a0f984eaeae6523ce2c7e6eaa",
+      "dimensions": [
+        512,
+        512
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-mark-64.png",
+      "bytes": 7579,
+      "sha256": "9f5ee2e788a5c57884d05e156a5ada635850e56c786bca7ddfee20579cc3c590",
+      "dimensions": [
+        64,
+        64
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-mark-mono-black.svg",
+      "bytes": 5300,
+      "sha256": "4921fec1fcfa0f6aea2979bd17c25b10671c92794ed3033bbbbeddec87822792",
+      "viewBox": "0 0 140 144",
+      "representation": "source_derived_vector_trace",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-mark-mono-currentcolor.svg",
+      "bytes": 5305,
+      "sha256": "5196e0bf8d6a5584e4914a345d256f1bdde26905f9228fb90af2bec142fa2855",
+      "viewBox": "0 0 140 144",
+      "representation": "source_derived_vector_trace",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-mark-mono-white.svg",
+      "bytes": 5300,
+      "sha256": "95571a0a1982654224b117bf265c1934d0e236f3ea1456bd3422a19915db8d7c",
+      "viewBox": "0 0 140 144",
+      "representation": "source_derived_vector_trace",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-mark-native.png",
+      "bytes": 25920,
+      "sha256": "5438d60f48ac36aad69a004541f1d34d275ec42578106e0d40540244df0bc3ff",
+      "dimensions": [
+        140,
+        144
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-maskable-192.png",
+      "bytes": 13213,
+      "sha256": "49948863fda796218477a59a8e1a85061737f27ab6e0b313b462155970ad8ae0",
+      "dimensions": [
+        192,
+        192
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-maskable-512.png",
+      "bytes": 63248,
+      "sha256": "0236476475d5454ddaab271b6611c3fd92faa71adab6614529121d5392fede3c",
+      "dimensions": [
+        512,
+        512
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-notification-mono-16.png",
+      "bytes": 350,
+      "sha256": "69875f22f0003278db78e64bc2ff189d546fa3fc773fc63594fa935b1954c1af",
+      "dimensions": [
+        16,
+        16
+      ],
+      "representation": "raster_render_of_derived_asset",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-notification-mono-24.png",
+      "bytes": 507,
+      "sha256": "246bfedb4d4bfae41260dd1be4bf55bbc90025fc0c3a119e74ec8580b4e0e763",
+      "dimensions": [
+        24,
+        24
+      ],
+      "representation": "raster_render_of_derived_asset",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-notification-mono-32.png",
+      "bytes": 647,
+      "sha256": "4b3e743f5ddd770707c9a26dc1b86362326ef65255ec98bb36a2311551b424df",
+      "dimensions": [
+        32,
+        32
+      ],
+      "representation": "raster_render_of_derived_asset",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-notification-mono-48.png",
+      "bytes": 979,
+      "sha256": "342ae0886eb0a2c946411e2e639defd58063418f6dfc3644b2b1d6891dd48c24",
+      "dimensions": [
+        48,
+        48
+      ],
+      "representation": "raster_render_of_derived_asset",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-share-card.png",
+      "bytes": 89279,
+      "sha256": "b59e0e1bb897b00ccd2c9e4e59b4ea95bf0190b05a645fb67b53f0173e835499",
+      "dimensions": [
+        1200,
+        630
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-share-card.svg",
+      "bytes": 59460,
+      "sha256": "bacbf5bf97d60d7b26ac48ac3fc74b18c71ee9d16846d3523f53364b47ff2aa8",
+      "viewBox": "0 0 1200 630",
+      "representation": "hybrid_svg_raster_symbol_vector_text",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-signature-dark.png",
+      "bytes": 38270,
+      "sha256": "8d007b557d1f66503ab54e3200503b1ea71ad25aa4ecb53056d2867d29f6187d",
+      "dimensions": [
+        370,
+        166
+      ],
+      "representation": "raster_render_of_derived_asset",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-signature-dark.svg",
+      "bytes": 58643,
+      "sha256": "2916f4c59b817b5e07888e1ea395c9ceb942a4126d7665fa40f639dc970c6177",
+      "viewBox": "0 0 370 166",
+      "representation": "hybrid_svg_raster_symbol_vector_text",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-signature-dark@2x.png",
+      "bytes": 106926,
+      "sha256": "c6be62a49f5796514e14c49a4d2e28e04bc63348a87b88a974fe2dcdb6710ad2",
+      "dimensions": [
+        740,
+        332
+      ],
+      "representation": "raster_render_of_derived_asset",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-signature-light.png",
+      "bytes": 37112,
+      "sha256": "32918eda9190c9c0d62a4960efac3db9b669ff0f306e28acc2cf6d43b359bb13",
+      "dimensions": [
+        370,
+        166
+      ],
+      "representation": "raster_render_of_derived_asset",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-signature-light.svg",
+      "bytes": 58712,
+      "sha256": "87438b393454718dd1c37c856f655995241ff2b337a85b7f8c4b5acf523f16c9",
+      "viewBox": "0 0 370 166",
+      "representation": "hybrid_svg_raster_symbol_vector_text",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-signature-light@2x.png",
+      "bytes": 98204,
+      "sha256": "63219aeee86d5a328bdf0fb9085ccebe14a2afbfd0cda71bd6dfff3c3e4c7124",
+      "dimensions": [
+        740,
+        332
+      ],
+      "representation": "raster_render_of_derived_asset",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-wordmark-currentcolor.svg",
+      "bytes": 3420,
+      "sha256": "5355a81511609f6594bf3d562299a72a9574225c0e4c5a86f4d4111183f7f62d",
+      "viewBox": "0 0 118.5 59.5",
+      "representation": "source_derived_vector_trace",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-wordmark-dark.svg",
+      "bytes": 3412,
+      "sha256": "a4b5c4b7b646c1ddae836fb2bfa28d2347c98f7bef9354c8627d57cadd9321a2",
+      "viewBox": "0 0 118.5 59.5",
+      "representation": "source_derived_vector_trace",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-wordmark-dark@2x.png",
+      "bytes": 5013,
+      "sha256": "f4b59474d2c632d0ebe78538742d701bf5c2892836f709de9ea1a973abbbdce5",
+      "dimensions": [
+        237,
+        119
+      ],
+      "representation": "raster_render_of_derived_asset",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-wordmark-light.svg",
+      "bytes": 3412,
+      "sha256": "cfc4340c7c9261f3745ac6a41696e1b3d84b3459eae04903af0bd274ca64a61d",
+      "viewBox": "0 0 118.5 59.5",
+      "representation": "source_derived_vector_trace",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-wordmark-light@2x.png",
+      "bytes": 6697,
+      "sha256": "fc337735e14e152a8b6b3010e9515156e8c1983f7f99b2a4f8f285dd485e680e",
+      "dimensions": [
+        237,
+        119
+      ],
+      "representation": "raster_render_of_derived_asset",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/favicon.ico",
+      "bytes": 70423,
+      "sha256": "d9dbe86fe41b096835a6e8c903ec0fcc317ba53f1d1fbb400dc289f4e34fcad0",
+      "dimensions": [
+        256,
+        256
+      ],
+      "representation": "source_derived_raster",
+      "layers": [
+        [
+          16,
+          16
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/favicon.svg",
+      "bytes": 5402,
+      "sha256": "d01eaab36d2f0e7c76234d2be77459b51c991568216b2e396741865f11378768",
+      "viewBox": "0 0 144 144",
+      "representation": "source_derived_vector_trace",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "identity": "CAi",
+  "version": "1.6",
+  "scope": "Installed application assets only; broader source inventory is branding/releases/v1.6/source-inventory.json.",
+  "sourceDirectory": "<projects-folder>\\CAi-corrected-logo-assets-v1.6",
+  "previousManifest": "branding/history/v1.5/asset-manifest.json",
+  "assets": [
+    {
+      "path": "public/branding/cai/apple-touch-icon.png",
+      "bytes": 22071,
+      "sha256": "392af78b80594f820c5b85cc8e00994ca0deb89a81e8c0d2d3964a83ae96f12d",
+      "dimensions": [
+        180,
+        180
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-128.png",
+      "bytes": 12847,
+      "sha256": "9a660ac85d21b93589f00e3cc3b4db648cf9e04e1cd1c45019b5ae121a3ceceb",
+      "dimensions": [
+        128,
+        128
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-16.png",
+      "bytes": 529,
+      "sha256": "1e714c80182dd1ae4bc2bdaa7a1eaa3dff93ccde4f1f8c46293c4d4e3f8797db",
+      "dimensions": [
+        16,
+        16
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-32.png",
+      "bytes": 1420,
+      "sha256": "9c798ea4816f0df29b757b8894758f589f945a4f37cabc669d1343b0cfafd165",
+      "dimensions": [
+        32,
+        32
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-mark-128.png",
+      "bytes": 17479,
+      "sha256": "d507a69b1286d9884087270ecd44cbf722fe7168ae3c998c13ff06a3879d63cf",
+      "dimensions": [
+        128,
+        128
+      ],
+      "representation": "source_derived_raster",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-wordmark-dark.svg",
+      "bytes": 3412,
+      "sha256": "a4b5c4b7b646c1ddae836fb2bfa28d2347c98f7bef9354c8627d57cadd9321a2",
+      "viewBox": "0 0 118.5 59.5",
+      "representation": "source_derived_vector_trace",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/cai-wordmark-light.svg",
+      "bytes": 3412,
+      "sha256": "cfc4340c7c9261f3745ac6a41696e1b3d84b3459eae04903af0bd274ca64a61d",
+      "viewBox": "0 0 118.5 59.5",
+      "representation": "source_derived_vector_trace",
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    },
+    {
+      "path": "public/branding/cai/favicon.ico",
+      "bytes": 70423,
+      "sha256": "d9dbe86fe41b096835a6e8c903ec0fcc317ba53f1d1fbb400dc289f4e34fcad0",
+      "dimensions": [
+        256,
+        256
+      ],
+      "representation": "source_derived_raster",
+      "layers": [
+        [
+          16,
+          16
+        ],
+        [
+          32,
+          32
+        ],
+        [
+          48,
+          48
+        ],
+        [
+          64,
+          64
+        ],
+        [
+          128,
+          128
+        ],
+        [
+          256,
+          256
+        ]
+      ],
+      "usageQualification": "Color symbol comes from a 140x144 raster crop. Large sizes do not add detail; see docs/BRAND_ASSETS.md."
+    }
+  ]
+}

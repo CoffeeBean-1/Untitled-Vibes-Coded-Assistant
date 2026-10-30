@@ -1,0 +1,301 @@
+{
+  "schemaVersion": 1,
+  "baselineHandoffVersion": "1.4",
+  "updatedHandoffVersion": "1.5",
+  "baselineZipSha256": "ac74477e5f592d56b4da2585b5358aa39562f577f5c07286c793a5cd6dbfa89f",
+  "selectionId": "ai-startup-board-2-concept-10",
+  "rule": "Do not regenerate, recolor, retrace or rebuild approved logo-only/wordmark/icon assets. Supporting tagline text only may change in composites.",
+  "lockedFiles": [
+    {
+      "path": "public/branding/cai/apple-touch-icon.png",
+      "sha256": "392af78b80594f820c5b85cc8e00994ca0deb89a81e8c0d2d3964a83ae96f12d",
+      "bytes": 22071,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-1024.png",
+      "sha256": "26bfbc1172b8a1a7a47d93e8c37b0236b63c8836850c70586bc6184c10ecd630",
+      "bytes": 313550,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-128.png",
+      "sha256": "9a660ac85d21b93589f00e3cc3b4db648cf9e04e1cd1c45019b5ae121a3ceceb",
+      "bytes": 12847,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-16.png",
+      "sha256": "1e714c80182dd1ae4bc2bdaa7a1eaa3dff93ccde4f1f8c46293c4d4e3f8797db",
+      "bytes": 529,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-192.png",
+      "sha256": "3ea42dc20d106047b96dbb2fcbb33f77f92d74890eb0e6df24f6edee557ddd60",
+      "bytes": 24562,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-256.png",
+      "sha256": "44a44451184286d69de80f3191fabdfbdea101599ff51200338a19c2cd41fec2",
+      "bytes": 38512,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-32.png",
+      "sha256": "9c798ea4816f0df29b757b8894758f589f945a4f37cabc669d1343b0cfafd165",
+      "bytes": 1420,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-48.png",
+      "sha256": "69ec1daf681bf2eb4cdaab90110524da4d750761015df4a66374c187347d2ba7",
+      "bytes": 2552,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-512.png",
+      "sha256": "684d33f2ce7fe8c2e11bf963c91128825cdcf9167d69537ef00ab63b1af53c2d",
+      "bytes": 111830,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-64.png",
+      "sha256": "7f8b417a20e297266576f27cc9d3acb2cc3be124661087def6834cdc4488723e",
+      "bytes": 4086,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-logo-dark.png",
+      "sha256": "b1f004bf1db2cda85880a52b79f00a3a7faddfd5007a54dcba370a5b74c9dcd4",
+      "bytes": 15475,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-logo-dark.svg",
+      "sha256": "9721fb9897563687911590d62687eb635fa3854a732abc21e1d8f1d0b251cabe",
+      "bytes": 38172,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-logo-dark@2x.png",
+      "sha256": "eb904d114ea697985f2dffe38112299759b96296d27961929659bb8164a38b33",
+      "bytes": 45121,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-logo-light.png",
+      "sha256": "03626f99eaf4302b7daa4de843bcea1e3c90d0b0b292184f6784818d7f2ea167",
+      "bytes": 14612,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-logo-light.svg",
+      "sha256": "c506b80184e55f006e46003a7f27288c2b4de8c84f8a2baa1b4c939221af1b71",
+      "bytes": 38237,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-logo-light@2x.png",
+      "sha256": "95833be57159929108d9cbb535c8ac5dd25cd413c42aa2bac5aac169f2a49819",
+      "bytes": 41260,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-mark-128.png",
+      "sha256": "4461bcca824ec3cec537d450e30c71b7e99cd94e79c285baa57781fcf2996a44",
+      "bytes": 23644,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-mark-128.webp",
+      "sha256": "a4d955912ab826ef36e0e593e17d6ee9069145035a92da6c3f1c9ed2303876f3",
+      "bytes": 18196,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-mark-256.png",
+      "sha256": "699e53faabc17a8d65279a0652b717d226e537c4c2675dbfc9a2ad29c5c5f33c",
+      "bytes": 73790,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-mark-256.webp",
+      "sha256": "cf12abe8f7a8c80c81cf6a0e83b370f12cff5442c2e401072fa07801cfb94fc2",
+      "bytes": 54108,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-mark-512.png",
+      "sha256": "64eed7f15696a9b25f662e37fb097cb37868912a0f984eaeae6523ce2c7e6eaa",
+      "bytes": 215778,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-mark-64.png",
+      "sha256": "9f5ee2e788a5c57884d05e156a5ada635850e56c786bca7ddfee20579cc3c590",
+      "bytes": 7579,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-mark-mono-black.svg",
+      "sha256": "4921fec1fcfa0f6aea2979bd17c25b10671c92794ed3033bbbbeddec87822792",
+      "bytes": 5300,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-mark-mono-currentcolor.svg",
+      "sha256": "5196e0bf8d6a5584e4914a345d256f1bdde26905f9228fb90af2bec142fa2855",
+      "bytes": 5305,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-mark-mono-white.svg",
+      "sha256": "95571a0a1982654224b117bf265c1934d0e236f3ea1456bd3422a19915db8d7c",
+      "bytes": 5300,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-mark-native.png",
+      "sha256": "5438d60f48ac36aad69a004541f1d34d275ec42578106e0d40540244df0bc3ff",
+      "bytes": 25920,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-maskable-192.png",
+      "sha256": "49948863fda796218477a59a8e1a85061737f27ab6e0b313b462155970ad8ae0",
+      "bytes": 13213,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-maskable-512.png",
+      "sha256": "0236476475d5454ddaab271b6611c3fd92faa71adab6614529121d5392fede3c",
+      "bytes": 63248,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-notification-mono-16.png",
+      "sha256": "69875f22f0003278db78e64bc2ff189d546fa3fc773fc63594fa935b1954c1af",
+      "bytes": 350,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-notification-mono-24.png",
+      "sha256": "246bfedb4d4bfae41260dd1be4bf55bbc90025fc0c3a119e74ec8580b4e0e763",
+      "bytes": 507,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-notification-mono-32.png",
+      "sha256": "4b3e743f5ddd770707c9a26dc1b86362326ef65255ec98bb36a2311551b424df",
+      "bytes": 647,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-notification-mono-48.png",
+      "sha256": "342ae0886eb0a2c946411e2e639defd58063418f6dfc3644b2b1d6891dd48c24",
+      "bytes": 979,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-wordmark-currentcolor.svg",
+      "sha256": "5355a81511609f6594bf3d562299a72a9574225c0e4c5a86f4d4111183f7f62d",
+      "bytes": 3420,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-wordmark-dark.svg",
+      "sha256": "a4b5c4b7b646c1ddae836fb2bfa28d2347c98f7bef9354c8627d57cadd9321a2",
+      "bytes": 3412,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-wordmark-dark@2x.png",
+      "sha256": "f4b59474d2c632d0ebe78538742d701bf5c2892836f709de9ea1a973abbbdce5",
+      "bytes": 5013,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-wordmark-light.svg",
+      "sha256": "cfc4340c7c9261f3745ac6a41696e1b3d84b3459eae04903af0bd274ca64a61d",
+      "bytes": 3412,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-wordmark-light@2x.png",
+      "sha256": "fc337735e14e152a8b6b3010e9515156e8c1983f7f99b2a4f8f285dd485e680e",
+      "bytes": 6697,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/favicon.ico",
+      "sha256": "d9dbe86fe41b096835a6e8c903ec0fcc317ba53f1d1fbb400dc289f4e34fcad0",
+      "bytes": 70423,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/favicon.svg",
+      "sha256": "d01eaab36d2f0e7c76234d2be77459b51c991568216b2e396741865f11378768",
+      "bytes": 5402,
+      "kind": "runtime-artwork"
+    },
+    {
+      "path": "branding/source/PROVENANCE.json",
+      "sha256": "26b5d0a968b5e1ba10df866127b19eecb7437893ea01ce135259b047ec173461",
+      "bytes": 1829,
+      "kind": "source-reference"
+    },
+    {
+      "path": "branding/source/ai-startup-board-original.png",
+      "sha256": "87a74dc369ea4efc744ce8ec3fd4a097326536ca7803214ecd91076def1ee0a2",
+      "bytes": 1636977,
+      "kind": "source-reference"
+    },
+    {
+      "path": "branding/source/orbital-mark-original-crop.png",
+      "sha256": "34be52d8073d896a543a22899524817321e9cc1d51df664a88afcc66feed31f4",
+      "bytes": 25253,
+      "kind": "source-reference"
+    },
+    {
+      "path": "branding/source/selected-concept-10-original.png",
+      "sha256": "686ee33b1773da0b4f98e9d049141d1bf40262120a290c8ecb5ad65b88687578",
+      "bytes": 73826,
+      "kind": "source-reference"
+    },
+    {
+      "path": "branding/source/wordmark-original-crop.png",
+      "sha256": "cc73e368fe4fdff460be2fa82b1e9e99824627cc31f71c94371b0aabbd713c96",
+      "bytes": 11370,
+      "kind": "source-reference"
+    }
+  ],
+  "compositeArtwork": [
+    {
+      "path": "public/branding/cai/cai-signature-dark.svg",
+      "imageElementSha256": "f66601faa3e16fabcb37424152598bca14efc9a93b5f4c922f293577b26c6161",
+      "wordmarkGroupSha256": "929b9612d7ded978805c26c84b8205d083b3d02a715507c3fa7652067e8313a6"
+    },
+    {
+      "path": "public/branding/cai/cai-signature-light.svg",
+      "imageElementSha256": "f66601faa3e16fabcb37424152598bca14efc9a93b5f4c922f293577b26c6161",
+      "wordmarkGroupSha256": "b6a5c01c3a2b72a9e6c3f67bfb6ccdd95fa233932e095b262ef378408f854b26"
+    },
+    {
+      "path": "public/branding/cai/cai-share-card.svg",
+      "imageElementSha256": "9682cb3c9e089206fe791fa354c233773eed76d64e705d601971c37daf7be777",
+      "wordmarkGroupSha256": "d7e98ac0a99a4c5e064c8f96e7146cc82b4c9bf846dbf07076a1349cd5a279f1"
+    }
+  ],
+  "allowedChangedRuntimeFiles": [
+    "public/branding/cai/cai-share-card.png",
+    "public/branding/cai/cai-share-card.svg",
+    "public/branding/cai/cai-signature-dark.png",
+    "public/branding/cai/cai-signature-dark.svg",
+    "public/branding/cai/cai-signature-dark@2x.png",
+    "public/branding/cai/cai-signature-light.png",
+    "public/branding/cai/cai-signature-light.svg",
+    "public/branding/cai/cai-signature-light@2x.png"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "status": "Identity/tagline and copy roles are approved. Additional sample lines remain optional editorial candidates, not mandatory UI text.",
+  "tagline": "Productivity is our job. Your data is our passion.",
+  "functional": {
+    "joinMeeting": "Join meeting",
+    "openOutlook": "Open in Outlook",
+    "orderToast": "Order on Toast",
+    "satireSetting": "Satirical copy",
+    "satireSettingHelp": "Show the brand tagline and occasional fictional corporate commentary. Functional messages stay unchanged.",
+    "companySection": "The Company",
+    "privacyLink": "Actual privacy and data handling"
+  },
+  "optionalSecondary": [
+    {
+      "id": "empty-calendar",
+      "functional": "No more meetings today!",
+      "satire": "Go touch some grass before it's too late.",
+      "satireVariants": [
+        "Go touch some grass before it's too late.",
+        "Don't get too comfortable.",
+        "Hopefully it stays this way <3",
+        "Would be a shame if you were added to another meeting."
+      ],
+      "pendingSatire": {
+        "text": "Click here to get added to another meeting",
+        "linkText": "Click here",
+        "destination": null
+      }
+    },
+    {
+      "id": "tasks-complete",
+      "functional": "You're all caught up.",
+      "satire": "A successful session, under the original definition."
+    },
+    {
+      "id": "appearance",
+      "functional": "Make yourself at home.",
+      "satire": "Within the supported aspect ratios."
+    },
+    {
+      "id": "world-clocks",
+      "functional": "World clocks",
+      "satire": "Somewhere, this is a reasonable hour."
+    },
+    {
+      "id": "toast-launcher",
+      "functional": "Checkout is handled by Toast.",
+      "satire": "We retain strategic oversight of the button."
+    },
+    {
+      "id": "dashboard-credit",
+      "satire": "Your work, management's success story.",
+      "placement": "Quiet dashboard note below reminders; hidden when satire is off."
+    }
+  ],
+  "rules": [
+    "Never attach a joke to every widget.",
+    "No random quip engine or AI API.",
+    "Never interpolate private work data into satire.",
+    "No satire in authentication, privacy/security warnings or real notification delivery.",
+    "Hide all optional satire and tagline when satiricalCopyEnabled is false.",
+    "Public-facing copy calls productivity our job; obligation belongs only in clearly fictional internal corporate copy.",
+    "In the fictional company, collecting and circulating data is a passion in itself. Revenue is secondary, not the sole punchline.",
+    "Use identical typography and color for both tagline lines. No wink, sinister effect, or forced emphasis on passion.",
+    "The sales-speed line requires surrounding fictional data-brokerage context and must never replace the canonical tagline."
+  ],
+  "taglineLines": [
+    "Productivity is our job.",
+    "Your data is our passion."
+  ],
+  "approvedCopyRoles": {
+    "primary": {
+      "text": "Productivity is our job. Your data is our passion.",
+      "lines": [
+        "Productivity is our job.",
+        "Your data is our passion."
+      ],
+      "use": "Marketing/About branding when satire is enabled; not navigation or sensitive workflows."
+    },
+    "about": {
+      "text": "We're in the business of productivity, with a passion for your data.",
+      "use": "Optional fictional company description, not a real privacy disclosure."
+    },
+    "internal": {
+      "term": "obligation",
+      "use": "Clearly labeled fictional internal memos or corporate statements only; never the public tagline."
+    },
+    "campaign": {
+      "text": "You work faster. We sell faster.",
+      "use": "Optional only in clearly fictional data-brokerage context. Never the main tagline or an operational status."
+    }
+  },
+  "optionalFictionalInternal": [
+    {
+      "id": "obligation-versus-passion",
+      "status": "Editorial candidate, not individually approved wording",
+      "heading": "Internal memorandum - fictional",
+      "text": "Our productivity obligations continue to be met. The data program remains a personal commitment.",
+      "requiresVisibleSatireLabel": true
+    }
+  ],
+  "companyAI": {
+    "title": "Our dedication to AI",
+    "lead": "AI is the future. CAi is building the narrative to match.",
+    "sections": [
+      {
+        "heading": "Intelligence, by design.",
+        "body": "Our proprietary deterministic intelligence layer turns explicitly defined instructions into consistently repeatable outcomes. We consider predictability an emerging capability."
+      },
+      {
+        "heading": "A scalable AI strategy.",
+        "body": "We are model-agnostic, inference-free, and aggressively aligned with the intelligence economy. Our narrative scales independently of our compute requirements."
+      },
+      {
+        "heading": "Investor-ready by default.",
+        "body": "Our dedication to AI is reflected across our positioning, our roadmap language, and the lowercase i in our name. We continue to evaluate opportunities to bring that same dedication to the implementation."
+      }
+    ]
+  }
+}

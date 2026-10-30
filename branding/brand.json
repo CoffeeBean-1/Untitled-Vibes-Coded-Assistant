@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "handoffVersion": "1.5",
+  "preparedOn": "2026-10-27",
+  "identity": {
+    "wordmark": "CAi",
+    "fullName": "Cursed Assistant-inator",
+    "tagline": "Productivity is our job. Your data is our passion.",
+    "caseSensitive": true,
+    "documentTitle": "CAi | Cursed Assistant-inator",
+    "plainDescription": "A personal workplace dashboard for meetings, tasks, world clocks, and daily essentials.",
+    "taglineLines": [
+      "Productivity is our job.",
+      "Your data is our passion."
+    ],
+    "taglinePresentation": {
+      "preferredLines": 2,
+      "equalVisualWeight": true,
+      "preserveSentenceOrder": true,
+      "allowNaturalWrappingWithinLine": true
+    }
+  },
+  "logo": {
+    "selectionId": "ai-startup-board-2-concept-10",
+    "board": "SECOND board: AI-startup exploration",
+    "concept": 10,
+    "description": "Luminous tilted orbital/ribbon-loop symbol in teal and cyan with blue/violet highlights; clean white CAi wordmark on a near-black background.",
+    "reference": "branding/source/selected-concept-10-original.png",
+    "publicAssetDirectory": "public/branding/cai",
+    "colorMaster": "source-derived-raster",
+    "nativeMarkCanvasPx": [
+      140,
+      144
+    ],
+    "colorSvgType": "hybrid-raster-mark-and-vector-wordmark",
+    "monochromeStatus": "derived-utility-silhouette",
+    "lightVariant": "owner-supplied v1.6 transparency-repaired symbol with dark wordmark on the light app surface",
+    "preservationManifest": "branding/logo-lock.json",
+    "mustRemainUnchanged": true,
+    "artworkVersion": "1.6",
+    "sourceAssetDirectory": "<projects-folder>\\CAi-corrected-logo-assets-v1.6\\assets"
+  },
+  "colors": {
+    "primary": "#115B47",
+    "brandStage": "#070F12",
+    "logoTeal": "#27CCB6",
+    "logoCyan": "#62D6E8",
+    "logoBlue": "#6D9EF0",
+    "logoViolet": "#B3A1F2",
+    "darkReadableAccent": "#67C5A3",
+    "note": "Logo support colors are proposed companion tokens, not exact sampled masters; they do not recolor the selected artwork."
+  },
+  "behavior": {
+    "runtimeAI": false,
+    "satireSecondaryToProductivity": true,
+    "defaultLogoAnimation": false,
+    "externalFonts": false,
+    "analyticsByDefault": false,
+    "satiricalCopySetting": "satiricalCopyEnabled",
+    "satireOffHidesTagline": true,
+    "defaultShowTaglineInNavigation": false,
+    "defaultShowTaglineInAbout": true,
+    "preserveUserCustomBranding": true,
+    "fictionalDataBrokerageMotivation": "Passion for collecting and circulating data; profit is secondary. Fiction only."
+  },
+  "placements": {
+    "header": "mark plus CAi, no tagline by default",
+    "quickView": "mark plus CAi, or symbol with accessible name",
+    "about": "full name and official tagline when satire is enabled",
+    "permissionAndSecurity": "literal factual copy; no satirical tagline",
+    "notifications": "functional task/meeting copy; no satire",
+    "favicon": "symbol only"
+  },
+  "deprecatedTaglines": [
+    "It knows your schedule. Unfortunately.",
+    "Work. Organized",
+    "Data. Sold.",
+    "Your data is going places."
+  ],
+  "sourceLimitations": [
+    "No original layered or all-vector color master was supplied.",
+    "Large raster exports are resamples of a small concept crop, not newly recovered detail.",
+    "Source reference images contain obsolete text; never use them as live UI assets."
+  ],
+  "voice": {
+    "publicFacingTerm": "job",
+    "fictionalInternalTerm": "obligation",
+    "aboutCopy": "We're in the business of productivity, with a passion for your data.",
+    "secondaryCampaignCopy": "You work faster. We sell faster.",
+    "secondaryCampaignConstraint": "Optional only in clearly fictional data-brokerage context. Never the main tagline or an operational status."
+  }
+}

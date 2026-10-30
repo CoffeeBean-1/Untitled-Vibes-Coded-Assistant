@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "artworkVersion": "1.6",
+  "selectionId": "ai-startup-board-2-concept-10",
+  "rule": "Use these owner-supplied v1.6 files byte-for-byte. Transparency repair replaces the earlier mark; no local redraw, recolor or regeneration.",
+  "previousLock": "branding/history/v1.5/logo-lock.json",
+  "sourceInventory": "branding/releases/v1.6/source-inventory.json",
+  "lockedFiles": [
+    {
+      "path": "public/branding/cai/apple-touch-icon.png",
+      "sha256": "392af78b80594f820c5b85cc8e00994ca0deb89a81e8c0d2d3964a83ae96f12d",
+      "bytes": 22071,
+      "kind": "installed-runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-128.png",
+      "sha256": "9a660ac85d21b93589f00e3cc3b4db648cf9e04e1cd1c45019b5ae121a3ceceb",
+      "bytes": 12847,
+      "kind": "installed-runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-16.png",
+      "sha256": "1e714c80182dd1ae4bc2bdaa7a1eaa3dff93ccde4f1f8c46293c4d4e3f8797db",
+      "bytes": 529,
+      "kind": "installed-runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-app-icon-32.png",
+      "sha256": "9c798ea4816f0df29b757b8894758f589f945a4f37cabc669d1343b0cfafd165",
+      "bytes": 1420,
+      "kind": "installed-runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-mark-128.png",
+      "sha256": "d507a69b1286d9884087270ecd44cbf722fe7168ae3c998c13ff06a3879d63cf",
+      "bytes": 17479,
+      "kind": "installed-runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-wordmark-dark.svg",
+      "sha256": "a4b5c4b7b646c1ddae836fb2bfa28d2347c98f7bef9354c8627d57cadd9321a2",
+      "bytes": 3412,
+      "kind": "installed-runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/cai-wordmark-light.svg",
+      "sha256": "cfc4340c7c9261f3745ac6a41696e1b3d84b3459eae04903af0bd274ca64a61d",
+      "bytes": 3412,
+      "kind": "installed-runtime-artwork"
+    },
+    {
+      "path": "public/branding/cai/favicon.ico",
+      "sha256": "d9dbe86fe41b096835a6e8c903ec0fcc317ba53f1d1fbb400dc289f4e34fcad0",
+      "bytes": 70423,
+      "kind": "installed-runtime-artwork"
+    }
+  ]
+}

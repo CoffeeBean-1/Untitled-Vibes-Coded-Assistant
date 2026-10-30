@@ -1,0 +1,333 @@
+{
+  "schemaVersion": 1,
+  "handoffVersion": "1.4",
+  "preparedOn": "2026-10-26",
+  "status": "planning_defaults_not_runtime_authorization",
+  "application": {
+    "workingName": "Cursed Assistant-inator",
+    "runtime": "browser_first",
+    "mode": "synthetic_demo",
+    "runtimeAI": false,
+    "displayName": "Cursed Assistant-inator",
+    "wordmark": "CAi",
+    "wordmarkCaseSensitive": true,
+    "brandPersonality": "dry_satirical_big_tech_parody",
+    "fauxAIMarketingNotFeature": true,
+    "tagline": "Productivity is our job. Your data is our passion.",
+    "satiricalCopyEnabled": true,
+    "satireSecondaryToProductivity": true,
+    "satireIsNotRealDataPractice": true
+  },
+  "theme": {
+    "brand": "#115B47",
+    "mode": "system",
+    "light": {
+      "appBg": "#F8F8F8",
+      "surface": "#FFFFFF",
+      "text": "#3B3B3B",
+      "borderSubtle": "#E5E5E5",
+      "link": "#115B47"
+    },
+    "dark": {
+      "appBg": "#181818",
+      "surface": "#1F1F1F",
+      "text": "#CCCCCC",
+      "borderSubtle": "#2B2B2B",
+      "link": "#67C5A3"
+    }
+  },
+  "dashboard": {
+    "measure": "usable_content_width_css_px",
+    "baseRowPx": 64,
+    "profiles": {
+      "wide": {
+        "minWidthPx": 1200,
+        "columns": 12,
+        "gapPx": 16
+      },
+      "medium": {
+        "minWidthPx": 800,
+        "maxWidthPx": 1199,
+        "columns": 8,
+        "gapPx": 16
+      },
+      "narrow": {
+        "maxWidthPx": 799,
+        "columns": 4,
+        "gapPx": 12
+      }
+    },
+    "presets": {
+      "compact": {
+        "w": 4,
+        "h": 2
+      },
+      "standard": {
+        "w": 4,
+        "h": 4
+      },
+      "wide": {
+        "w": 8,
+        "h": 4
+      },
+      "tall": {
+        "w": 4,
+        "h": 8
+      },
+      "large": {
+        "w": 8,
+        "h": 8
+      },
+      "full_width_short": {
+        "w": 12,
+        "h": 4
+      },
+      "full_width_tall": {
+        "w": 12,
+        "h": 8
+      }
+    },
+    "editModeRequired": true,
+    "overlapAllowed": false,
+    "autoReflowOnDataUpdate": false,
+    "independentProfiles": true,
+    "undoDepth": 20,
+    "layouts": {
+      "wide": [
+        {
+          "widgetId": "tasks-today",
+          "type": "tasks",
+          "preset": "large",
+          "x": 0,
+          "y": 0,
+          "w": 8,
+          "h": 8
+        },
+        {
+          "widgetId": "next-meeting",
+          "type": "next_meeting",
+          "preset": "compact",
+          "x": 8,
+          "y": 0,
+          "w": 4,
+          "h": 2
+        },
+        {
+          "widgetId": "world-clocks",
+          "type": "world_clocks",
+          "preset": "standard",
+          "x": 8,
+          "y": 2,
+          "w": 4,
+          "h": 4
+        },
+        {
+          "widgetId": "aster-hall",
+          "type": "food",
+          "preset": "compact",
+          "x": 8,
+          "y": 6,
+          "w": 4,
+          "h": 2
+        }
+      ],
+      "medium": [
+        {
+          "widgetId": "next-meeting",
+          "type": "next_meeting",
+          "preset": "compact",
+          "x": 0,
+          "y": 0,
+          "w": 4,
+          "h": 2
+        },
+        {
+          "widgetId": "aster-hall",
+          "type": "food",
+          "preset": "compact",
+          "x": 4,
+          "y": 0,
+          "w": 4,
+          "h": 2
+        },
+        {
+          "widgetId": "tasks-today",
+          "type": "tasks",
+          "preset": "large",
+          "x": 0,
+          "y": 2,
+          "w": 8,
+          "h": 8
+        },
+        {
+          "widgetId": "world-clocks",
+          "type": "world_clocks",
+          "preset": "wide",
+          "x": 0,
+          "y": 10,
+          "w": 8,
+          "h": 4
+        }
+      ],
+      "narrow": [
+        {
+          "widgetId": "next-meeting",
+          "type": "next_meeting",
+          "preset": "compact",
+          "x": 0,
+          "y": 0,
+          "w": 4,
+          "h": 2
+        },
+        {
+          "widgetId": "tasks-today",
+          "type": "tasks",
+          "preset": "tall",
+          "x": 0,
+          "y": 2,
+          "w": 4,
+          "h": 8
+        },
+        {
+          "widgetId": "world-clocks",
+          "type": "world_clocks",
+          "preset": "standard",
+          "x": 0,
+          "y": 10,
+          "w": 4,
+          "h": 4
+        },
+        {
+          "widgetId": "aster-hall",
+          "type": "food",
+          "preset": "compact",
+          "x": 0,
+          "y": 14,
+          "w": 4,
+          "h": 2
+        }
+      ]
+    }
+  },
+  "tasks": {
+    "statuses": [
+      "todo",
+      "in_progress",
+      "waiting",
+      "done"
+    ],
+    "priorities": [
+      "critical",
+      "high",
+      "normal",
+      "low"
+    ],
+    "defaultPriority": "normal",
+    "dueSoonMinutes": 60,
+    "maxSubtaskDepth": 1,
+    "ambiguousNumericDates": "do_not_guess",
+    "displayTimeZone": "device_detected_until_user_selected",
+    "newDateOnlyReminderLocalTime": "09:00"
+  },
+  "reminders": {
+    "prototypeTransport": "in_app_foreground",
+    "notificationDetails": "private",
+    "closedAppDeliveryEnabled": false,
+    "quietHoursEnabledByDefault": false,
+    "scheduleIsPersistent": true,
+    "deliveryIsGuaranteed": false
+  },
+  "calendar": {
+    "provider": "demo",
+    "liveEnabled": false,
+    "permissionCandidate": "Calendars.Read",
+    "writesEnabled": false,
+    "mailReadEnabled": false,
+    "lookbackDays": 1,
+    "lookaheadDays": 14,
+    "focusStaleAfterSeconds": 30,
+    "visiblePollSeconds": 120,
+    "pausePollingWhenHidden": true,
+    "demoJoin": "simulate_only"
+  },
+  "quickAccess": {
+    "globalShortcutEnabled": false,
+    "defaultGlobalBinding": null,
+    "target": "quick_view",
+    "initialWidthPx": 420,
+    "initialHeightPx": 560
+  },
+  "clocks": {
+    "officeTimeZone": "America/Chicago",
+    "initialZones": [
+      "America/Chicago"
+    ],
+    "styles": [
+      "digital",
+      "analog",
+      "comparison"
+    ],
+    "showSeconds": false,
+    "pauseWhenHidden": true,
+    "appendDetectedLocalZone": true,
+    "deduplicateInitialZones": true,
+    "invalidDetectedZone": "keep_office_zone_offer_manual_selection",
+    "suggestedAdditionalZones": [
+      "America/New_York",
+      "Europe/London"
+    ]
+  },
+  "uploads": {
+    "rasterOnly": true,
+    "maxInputBytes": 10485760,
+    "maxInputPixels": 24000000,
+    "backgroundMaxDimensionPx": 2560,
+    "backgroundTargetBytes": 1048576,
+    "backgroundHardMaxBytes": 2097152,
+    "logoMaxDimensionPx": 512,
+    "logoMaxBytes": 262144,
+    "externalImageURLsAllowed": false
+  },
+  "food": {
+    "provider": "doordash_online_ordering",
+    "mode": "external_checkout",
+    "orderingURL": "https://asterhall.order.online/",
+    "officialSiteFallback": "https://www.asterhallchicago.com/",
+    "apiEnabled": false,
+    "menuAPIEnabled": false,
+    "orderCreationEnabled": false,
+    "verifiedStatusEnabled": false,
+    "paymentHandlingEnabled": false,
+    "manualPickupReminders": true,
+    "scrapingAllowed": false,
+    "availability": "unknown_until_verified"
+  },
+  "privacy": {
+    "externalTelemetry": false,
+    "storeCalendarBodies": false,
+    "logMeetingURLs": false,
+    "personalCloudWorkData": false,
+    "workDataOfflineCacheApproved": false
+  },
+  "performanceTargets": {
+    "initialRouteCompressedJSKiB": 500,
+    "warmRevealP95Ms": 300,
+    "taskFixtureCount": 1000,
+    "taskInteractionP95Ms": 100,
+    "filterSearchP95Ms": 200,
+    "benchmarkWidgetCount": 4,
+    "benchmarkWarmupCount": 5,
+    "benchmarkSamplesPerAction": 50,
+    "benchmarkBuild": "production"
+  },
+  "approvalGates": {
+    "G1": "unresolved",
+    "G2": "unresolved",
+    "G3": "unresolved",
+    "G4": "unresolved",
+    "G5": "unresolved",
+    "G6": "unresolved",
+    "G7": "unresolved",
+    "G8": "unresolved"
+  }
+}
